@@ -78,7 +78,7 @@ Kebalikan dari StatelessWidget, StatefulWidget ialah widget yang state-nya dapat
 
 ### Scaffold
 
-Scaffold merupakan sebuah widget yang digunakan untuk membuat tampilan dasar material design pada aplikasi Flutter, yang dapat disebut juga dasar sebuah halaman pada aplikasi Flutter.
+Scaffold merupakan sebuah widget yang digunakan untuk membuat tampilan dasar material design pada aplikasi Flutter, yang dapat disebut juga dasar sebuah halaman pada aplikasi Flutter.</br>
 ![flutter-widget-lifecycle](../../asset/raw/scaffold_frame.png)
 Pada gambar di atas kotak berwarna merah merupakan AppBar; kotak berwarna hijau
 merupakan body; dan kotak berwarna biru merupakan FloatingActionButton.
@@ -93,7 +93,7 @@ Untuk membuat sebuah Scaffold kita hanya cukup memanggil class Scaffold seperti 
 }
 ```
 
-Pada kode diatas kita membuat sebuah StatelessWidget bernama FirstScreen, yang merupakan widget tampilan kita. Kemudian di dalam method build kita panggil Scaffold. Ketika kita menjalankan aplikasi Flutter, pada layar akan hanya muncul tampilan berwarna putih.
+Pada kode diatas kita membuat sebuah StatelessWidget bernama FirstScreen, yang merupakan widget tampilan kita. Kemudian di dalam method build kita panggil Scaffold. Ketika kita menjalankan aplikasi Flutter, pada layar akan hanya muncul tampilan berwarna putih.</br>
 ![flutter-widget-lifecycle](../../asset/raw/scaffold_empty.png)
 
 ### AppBar
