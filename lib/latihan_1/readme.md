@@ -20,7 +20,7 @@ Refrensi :
 - https://medium.com/flutterdevs/explore-widget-lifecycle-in-flutter-e36031c697d0
 - https://medium.com/flutter-communityflutter-lifecycle-for-android-and-ios-developers-8f532307e0c7</br>
 
-![flutter-widget-lifecycle](../../asset/image/flutter_lifecycle.png)
+![flutter-widget-lifecycle](../../asset/raw/flutter_lifecycle.png)
 
 #### createState
 
