@@ -3,6 +3,12 @@
 Pada latihan 1 ini kalian akan belajar tentang dasar dari Flutter.
 Flutter widget lifecycle, Statefull dan Stateless, Scaffold, AppBar, Impor asset.
 
+Jump to
+
+- [Flutter_Widget_Tree](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-tree)
+- [Flutter_Widget_Lifecycle](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-lifecycle)
+- [Stateless_dan_Statefull](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Stateless-dan-Statefull
+
 ### Flutter Widget Tree
 
 Pada dasarnya Flutter berisikan widget-widget kecil yang menjadi sebuah widget sedang, dan widget-widget sedang menjadi sebuah widget besar, dan begitu seterusnya. Seperti pada contoh berikut, ketika kita ingin membuat layout seperti berikut ini.
@@ -41,3 +47,28 @@ Method ini dapat dipanggil kapan saja dan berfungsi untuk merebuild atau menjala
 #### dispose
 
 Method ini juga tidak kalah penting, dimana ini dijalankan ketika widget atau state dihapus permanen. Method ini biasa dibutuhkan untuk unsubscribe streams, dispose animations, dan semacamnya. Method ini adalah kebalikan dari initState
+
+### Stateless dan Statefull
+
+Seperti yang kita tahu jantung dari aplikasi Flutter adalah widgets. Sebagian besar yang ada pada Flutter merupakan widgets. Membuat tombol, menampilkan gambar, text, dan membuat tampilan berada di tengah pada Flutter semuanya menggunakan widget. Kita juga dapat membuat widget sendiri untuk dapat digunakan lain waktu ataupun dibagikan kepada Flutter developer lain (dalam bentuk packages).
+Widget pada Flutter memiliki dua jenis, yaitu StatelessWidget dan StatefulWidget. Sebagai developer Flutter, kita harus memahami betul kedua jenis widget tersebut, maka pada bagian ini kita akan mempelajari apa itu StatelessWidget dan StatefulWidget.
+
+#### Apa itu state ?
+
+Untuk teman-teman dengan background frontend web developer, tentu tak akan asing dengan istilah State ini, terutama menggunakan framework ReactJS. Tetapi untuk Anda tanpa background tersebut tidak perlu risau. State tidaklah sulit untuk dimengerti. Jadi State adalah data yang ada pada suatu widget. Widget menyimpan data yang nantinya dapat berubah sesuai interaksi pengguna.
+
+Karena Flutter menggunakan paradigma OOP (Object Oriented Programming), state biasanya
+menjadi suatu properti dari sebuah class. Contohnya sebagai berikut:
+
+```class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+```
+
+#### StatelessWidget
+
+Setelah mengenal apa itu state, maka yang pertama kita akan bahas adalah StatelessWidget. StatelessWidget adalah widget yang nilai state-nya tidak dapat berubah (immutable) maka
+widget tersebut lebih bersifat statis dan memiliki interaktivitas yang terbatas.
+
+#### StatefullWidget
+
+Kebalikan dari StatelessWidget, StatefulWidget ialah widget yang state-nya dapat berubah-ubah nilainya, yang berarti StatefulWidget bersifat dinamis dan memiliki interaksi yang tak terbatas.
