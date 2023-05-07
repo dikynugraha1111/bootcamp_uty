@@ -8,6 +8,9 @@ Jump to
 - [Flutter_Widget_Tree](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-tree)
 - [Flutter_Widget_Lifecycle](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-lifecycle)
 - [Stateless_dan_Statefull](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Stateless-dan-Statefull)
+- [Scaffold](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Scaffold)
+- [AppBar](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#AppBar)
+- [Import_Asset](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Import-Asset)
 
 ### Flutter Widget Tree
 
@@ -72,3 +75,62 @@ widget tersebut lebih bersifat statis dan memiliki interaktivitas yang terbatas.
 #### StatefullWidget
 
 Kebalikan dari StatelessWidget, StatefulWidget ialah widget yang state-nya dapat berubah-ubah nilainya, yang berarti StatefulWidget bersifat dinamis dan memiliki interaksi yang tak terbatas.
+
+### Scaffold
+
+Scaffold merupakan sebuah widget yang digunakan untuk membuat tampilan dasar material design pada aplikasi Flutter, yang dapat disebut juga dasar sebuah halaman pada aplikasi Flutter.
+![flutter-widget-lifecycle](../../asset/raw/scaffold_frame.png)
+Pada gambar di atas kotak berwarna merah merupakan AppBar; kotak berwarna hijau
+merupakan body; dan kotak berwarna biru merupakan FloatingActionButton.
+
+Untuk membuat sebuah Scaffold kita hanya cukup memanggil class Scaffold seperti berikut:
+
+```class FirstScreen extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold();
+  }
+}
+```
+
+Pada kode diatas kita membuat sebuah StatelessWidget bernama FirstScreen, yang merupakan widget tampilan kita. Kemudian di dalam method build kita panggil Scaffold. Ketika kita menjalankan aplikasi Flutter, pada layar akan hanya muncul tampilan berwarna putih.
+![flutter-widget-lifecycle](../../asset/raw/scaffold_empty.png)
+
+### AppBar
+
+Setelah kita membuat Scaffold pertama kita pada Widget FirstScreen, sekarang kita akan menambahkan AppBar pada Scaffold. Seperti yang kita tahu AppBar merupakan Header (bagian paling atas) aplikasi atau biasa dikenal dengan toolbar. Pada AppBar umumnya terdapat judul dan ActionButton.
+class FirstScreen extends StatelessWidget {
+
+```@override
+Widget build(BuildContext context) {
+  return Scaffold(
+    appBar: AppBar(
+      title: Text('First Screen'),
+    ),
+  );
+}
+```
+
+Pada kode di atas kita menambahkan parameter appBar pada Scaffold dan menambahkan title pada AppBar tersebut. Title di sini tidak hanya spesifik Text saja, melainkan juga dapat diisi dengan widget lainnya seperti TextField untuk kolom pencarian atau yang lainnya. Setelah menambahkan kode di atas, coba refresh atau hot reload aplikasi flutter Anda. Selain menambahkan title kita dapat menambahkan widget-widget actions
+
+### Import Asset
+
+Untuk melakukan import asset pada flutter cukup mudah dilakukan. Import asset digunakan untuk kita bisa memasukan asset / file seperti gambar, icon, file dsb dan dipanggil pada project flutter kita untuk digunakan pada aplikasi yang berjalan.
+Kita cukup mendefinisikan file yang ingin kita import di bagian pubspec.yaml.
+
+```
+# To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/
+```
+
+Pada contoh diatas kita akan melakukan import kepada semua file yang terdapat di folder asset.
+Selain melakukan import dengan semua file, kita juga bisa melakukan import pada file spesifik yang ingin kita gunakan saja dengan mendefinisikannya sebagai berikut :
+
+```
+# To add assets to your application, add an assets section, like this:
+  assets:
+    - asset/raw/flutter_lifecycle.png
+```
+
+Pada code diatas kita akan melakukan import pada file flutter_lifecycle.png.
