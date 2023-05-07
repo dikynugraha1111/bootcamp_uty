@@ -7,7 +7,7 @@ Jump to
 
 - [Flutter_Widget_Tree](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-tree)
 - [Flutter_Widget_Lifecycle](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-lifecycle)
-- [Stateless_dan_Statefull](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Stateless-dan-Statefull
+- [Stateless_dan_Statefull](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Stateless-dan-Statefull)
 
 ### Flutter Widget Tree
 
