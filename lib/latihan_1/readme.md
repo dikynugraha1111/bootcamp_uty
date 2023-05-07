@@ -9,7 +9,7 @@ Pada dasarnya Flutter berisikan widget-widget kecil yang menjadi sebuah widget s
 ![bottom-nav-raw](../../asset/raw/bottom_nav_sample.png) </br>
 
 Jika kita gambarkan dengan diagram maka akan sebagai berikut :
-![flutter-life-cycle](../../asset/raw/flutter_lifecycle.png) </br>
+![flutter-life-cycle](../../asset/raw/flutter_widget_tree.png) </br>
 Dimana pertama kita akan membuat sebuah Row, lalu di dalam Row tersebut kita berikan beberapa Column, yang dimana setiap Column tersebut berisikan Icon dan Text. Container disini digunakan untuk membungkus beberapa widget guna menambahkan beberapa atribut seperti margin, padding, background, atau semacamnya.
 
 ### Flutter Widget Lifecycle
