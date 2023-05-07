@@ -5,12 +5,12 @@ Flutter widget lifecycle, Statefull dan Stateless, Scaffold, AppBar, Impor asset
 
 Jump to
 
-- [Flutter_Widget_Tree](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-tree)
-- [Flutter_Widget_Lifecycle](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-lifecycle)
-- [Stateless_dan_Statefull](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Stateless-dan-Statefull)
+- [Flutter Widget Tree](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-tree)
+- [Flutter Widget Lifecycle](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#flutter-widget-lifecycle)
+- [Stateless dan Statefull](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Stateless-dan-Statefull)
 - [Scaffold](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Scaffold)
 - [AppBar](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#AppBar)
-- [Import_Asset](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Import-Asset)
+- [Import Asset](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Import-Asset)
 
 ### Flutter Widget Tree
 

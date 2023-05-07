@@ -8,11 +8,11 @@ Pada course ini kalian akan belajar mengenai dasar dari Flutter. Silahkan menuju
 
 - [home](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib)</br>
   Noted : Struktur aplikasi. Wajib **DIBACA**
-- [latihan_1](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1/)</br>
+- [Latihan 1](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1/)</br>
   Berisi Latihan tentang dasar dari flutter. Diantaranya adalah flutter widget lifecycle, Statefull dan Stateless, Scaffold, AppBar, Impor asset.
-- [latihan_2](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib)</br>
-  Berisi latihan tentang Text, container, Center, Button, circle avatar.
-- [latihan_3](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib)</br>
+- [Latihan 2](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib)</br>
+  Berisi latihan tentang Text, container, Center, Button, Text Field.
+- [Latihan 3](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib)</br>
   Berisi latihan tentang row, column, list view, stack, Navigation (In line code)
-- [latihan_4](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib)</br>
+- [Latihan 4](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib)</br>
   Berisi studi kasus dari implementasi pertemuan 1-3. Bisa di clone dan Run untuk mencoba dan jangan lupa baca dokumentasinya (README.md)
