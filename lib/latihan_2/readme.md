@@ -14,7 +14,7 @@ Jump to
 ### Container
 
 Container adalah widget dasar dari beberapa widget yang ada, di widget ini kita dapat mengatur seperti alignment, padding, margin, background, color, width, height, border, dan lain sebagainya.</br>
-[Container Sketch](../../asset/raw/container_sketch.png)
+[container-sketch](../../asset/raw/container_sketch.png)
 Beberapa parameter yang akan sering digunakan seperti,
 alignment, berfungsi untuk mengatur alignment dari child widget tersebut
 padding, berfungsi untuk mengatur padding dari child widget tersebut, padding sendiri adalah jarak dari content atau child ke border
