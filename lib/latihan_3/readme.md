@@ -14,7 +14,7 @@ Jump to
 ### Column
 
 Column adalah salah satu widget yang dapat menampung beberapa child sekaligus, atau yang kita sebut sebagai children. Widget ini akan membuat para children nya berjejer berurutan secara vertikal atau atas ke bawah.</br>
-[column-direction](../../asset/raw/column_direction.png)</br>
+![column-direction](../../asset/raw/column_direction.png)</br>
 Pada widget ini terdapat properties mainAxisSize yang berfungsi untuk mengatur ukuran dari Column tersebut, by default ini akan berisikan max yang dimana artinya ukurannya akan mengikuti ukuran dari si parent nya, sedangkan jika kita atur menjadi min maka ukurannya akan mengikuti ukuran dari para children nya itu sendiri, ini sama halnya seperti match_parent dan wrap_content pada Android.
 
 ```
@@ -43,7 +43,7 @@ Properties ini adalah berkebalikan dari mainAxisAlignment, yaitu jika mainAxisAl
 ### Row
 
 Widget ini sama hal nya dengan Column, namun jika Column berdirektori horizontal atau atas ke bawah, maka Row berdirektori utama vertikal atau kiri ke kanan.</br>
-[row-direction](../../asset/raw/row_direction.png)</br>
+![row-direction](../../asset/raw/row_direction.png)</br>
 
 ### List View
 
@@ -54,7 +54,7 @@ Disini kita akan membahas 2 macam list view, yaitu List View secara secara defau
 ### Stack
 
 Stack widget memungkinkan kita untuk menampilkan beberapa lapis widget ke layar. Stack widget juga merupakan multiple children widget yang artinya memiliki properti children sehingga dapat menampung lebih dr satu widget. Urutan dari lapisan widget pada stack dari bawah ke atas, jadi widget yang pertama di dalam stack akan berada di posisi paling bawah dan begitu juga sebaliknya, widget yang terakhir di stack widget akan berada di posisi paling atas stack.</br>
-[stack-pict](../../asset/raw/stack_pict.png)</br>
+![stack-pict](../../asset/raw/stack_pict.png)</br>
 
 ```
         body: Stack(
@@ -76,4 +76,4 @@ Stack widget memungkinkan kita untuk menampilkan beberapa lapis widget ke layar.
         ),
 ```
 
-[stack-sample](../../asset/raw/stack_sample.png)</br>
+![stack-sample](../../asset/raw/stack_sample.png)</br>
