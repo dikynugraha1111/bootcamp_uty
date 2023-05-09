@@ -1,4 +1,7 @@
 import 'package:bootcamp_uty/latihan_1/latihan_1_page.dart';
+import 'package:bootcamp_uty/latihan_2/latihan_2_container.dart';
+import 'package:bootcamp_uty/latihan_2/latihan_2_text.dart';
+import 'package:bootcamp_uty/latihan_2/latihan_2_textfield.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       // Definisikan page yang akan ditampilkan pertama saat aplikasi dijalankan
-      home: Latihan1StatelessPage("Bootcamp UTY"),
+      home: Latihan2TextField(),
     );
   }
 }
