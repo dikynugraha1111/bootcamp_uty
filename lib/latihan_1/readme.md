@@ -11,6 +11,7 @@ Jump to
 - [Scaffold](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Scaffold)
 - [AppBar](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#AppBar)
 - [Import Asset](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Import-Asset)
+- [Refrensi](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_1#Refrensi)
 
 ### Flutter Widget Tree
 
@@ -134,3 +135,23 @@ Selain melakukan import dengan semua file, kita juga bisa melakukan import pada 
 ```
 
 Pada code diatas kita akan melakukan import pada file flutter_lifecycle.png.
+
+### Refrensi
+
+Berikut beberapa refrensi lainnya yang bisa dibaca :
+https://flutter.dev/docs/development/ui/widgets/basics
+
+#### Widget MaterialApp
+
+https://api.flutter.dev/flutter/material/MaterialApp-class.html
+
+#### Widget Scaffold
+
+https://api.flutter.dev/flutter/material/Scaffold-class.html
+https://medium.com/flutterdevs/know-your-widgets-scaffold-in-flutter-292b8bc1281
+
+#### Widget AppBar
+
+https://api.flutter.dev/flutter/material/AppBar-class.html
+https://material.io/components/app-bars-top/flutter
+https://belajarflutter.com/flutter-widget-memahami-penggunaan-text-widget/

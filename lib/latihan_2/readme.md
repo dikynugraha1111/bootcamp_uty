@@ -11,6 +11,7 @@ Jump to
 - [TextField](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Text-Field)
 - [Button](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Button)
 - [Column](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Column)
+- [Refrensi](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Refrensi)
 
 ### Container
 
@@ -170,3 +171,40 @@ Untuk button di flutter sendiri kita juga bisa melakukan kostumasi bentuk mulai 
           child: Text(textButton),
         ),
 ```
+
+### Refrensi
+
+Refrensi yang bisa kalian baca seputar widget :
+
+#### Widget Container
+
+https://api.flutter.dev/flutter/widgets/Container-class.html
+https://medium.com/jlouage/container-de5b0d3ad184
+https://jagongoding.com/android/flutter/dasar/container/
+
+#### Widget Text
+
+https://api.flutter.dev/flutter/widgets/Text-class.html
+https://belajarflutter.com/flutter-widget-memahami-penggunaan-text-widget/
+
+#### Widget Center
+
+https://api.flutter.dev/flutter/widgets/Center-class.html
+
+#### Widget ElevatedButton
+
+https://api.flutter.dev/flutter/material/ElevatedButton-class.html
+https://www.woolha.com/tutorials/flutter-using-elevatedbutton-widget-examples
+
+#### Beberapa referensi dalam bentuk artikel atau teks yang berisikan materi Button Widget
+
+https://flutter.dev/docs/development/ui/widgets/material
+https://flutter.dev/docs/release/breaking-changes/buttons
+https://material.io/components/buttons/flutter
+
+#### Widget Column
+
+https://api.flutter.dev/flutter/widgets/Column-class.html
+https://medium.com/jlouage/flutter-row-column-cheat-sheet-78c38d242041
+https://www.woolha.com/tutorials/flutter-using-column-widget-examples
+https://www.geeksforgeeks.org/row-and-column-widgets-in-flutter-with-example/
