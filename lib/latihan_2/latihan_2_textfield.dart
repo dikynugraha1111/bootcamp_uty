@@ -9,6 +9,7 @@ class Latihan2TextField extends StatefulWidget {
 
 class _Latihan2TextFieldState extends State<Latihan2TextField> {
   final TextEditingController textController = TextEditingController();
+  final GlobalKey<FormState> textKey = GlobalKey<FormState>();
 
   @override
   void initState() {
@@ -28,34 +29,39 @@ class _Latihan2TextFieldState extends State<Latihan2TextField> {
       body: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 24.0),
         child: Center(
-          child: TextFormField(
-            maxLength: 30,
-            autofocus: true,
-            cursorColor: Colors.greenAccent,
-            controller: textController,
-            decoration: InputDecoration(
-              labelText: "Masukan Username",
-              floatingLabelStyle: const TextStyle(
-                color: Colors.greenAccent,
-                fontWeight: FontWeight.bold,
-              ),
-              hintText: "Silahkan isi username kamu !",
-              suffixIcon: const Icon(Icons.lock),
-              suffixIconColor: Colors.greenAccent,
-              enabledBorder: OutlineInputBorder(
-                borderRadius: const BorderRadius.all(Radius.circular(8)),
-                borderSide: BorderSide(
-                  width: 1.0,
-                  color: Colors.grey[400]!,
-                ),
-              ),
-              focusedBorder: const OutlineInputBorder(
-                borderRadius: BorderRadius.all(Radius.circular(8)),
-                borderSide: BorderSide(
-                  width: 1.0,
+          child: Form(
+            key: textKey,
+            child: TextFormField(
+              controller: textController,
+              maxLength: 30,
+              cursorColor: Colors.greenAccent,
+              decoration: InputDecoration(
+                labelText: "Masukan Username",
+                floatingLabelStyle: const TextStyle(
                   color: Colors.greenAccent,
+                  fontWeight: FontWeight.bold,
+                ),
+                hintText: "Silahkan isi username kamu !",
+                suffixIcon: const Icon(Icons.lock),
+                suffixIconColor: Colors.greenAccent,
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: const BorderRadius.all(Radius.circular(8)),
+                  borderSide: BorderSide(
+                    width: 1.0,
+                    color: Colors.grey[400]!,
+                  ),
+                ),
+                focusedBorder: const OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(8)),
+                  borderSide: BorderSide(
+                    width: 1.0,
+                    color: Colors.greenAccent,
+                  ),
                 ),
               ),
+              validator: (vlaue) {
+                return null;
+              },
             ),
           ),
         ),

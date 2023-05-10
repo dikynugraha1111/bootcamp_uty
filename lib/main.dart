@@ -1,4 +1,6 @@
 import 'package:bootcamp_uty/latihan_1/latihan_1_page.dart';
+import 'package:bootcamp_uty/latihan_2/latihan_2_button.dart';
+import 'package:bootcamp_uty/latihan_2/latihan_2_column.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_container.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_text.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_textfield.dart';
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       // Definisikan page yang akan ditampilkan pertama saat aplikasi dijalankan
-      home: Latihan2TextField(),
+      home: Latiahan2Column(),
     );
   }
 }

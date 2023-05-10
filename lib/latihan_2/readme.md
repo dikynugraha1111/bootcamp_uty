@@ -8,8 +8,8 @@ Jump to
 - [Container](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Container)
 - [Text](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Text)
 - [Center](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Center)
-- [TextField]()
-- [Button]()
+- [TextField](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Text-Field)
+- [Button](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Button)
 - [Column](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Column)
 
 ### Container
@@ -104,3 +104,69 @@ Properties ini berfungsi untuk mengatur alignment para children secara vertikal 
 #### CrossAxisAlignment
 
 Properties ini adalah berkebalikan dari mainAxisAlignment, yaitu jika mainAxisAlignment pada Column untuk secara vertikal atau atas ke bawah, maka properties ini akan mengatur secara horizontal atau kiri ke kanan.
+
+### Text Field
+
+Sama seperti component pada umumnya seperti di web, android native dsb. Text Field disini digunakan untuk user melakukan inputan text. Pada Flutter setidaknya kita bisa menggunakan TextField ataupun TextFormField.
+Keduanya sama sama berbentuk text field, hanya saja untuk TextFormField nanti kita bisa memasukan widget Form sebagai pembungkus dari pada Text Field tersebut.
+Nah.... Form itu sendiri bisa kita manfaatkan diantaranya sebagai validator text, on save text, dsb.
+
+```
+            Form(
+            key: textKey,
+            child: TextFormField(
+              controller: textController,
+              maxLength: 30,
+              cursorColor: Colors.greenAccent,
+              decoration: InputDecoration(
+                labelText: "Masukan Username",
+                floatingLabelStyle: const TextStyle(
+                  color: Colors.greenAccent,
+                  fontWeight: FontWeight.bold,
+                ),
+                hintText: "Silahkan isi username kamu !",
+                suffixIcon: const Icon(Icons.lock),
+                suffixIconColor: Colors.greenAccent,
+                enabledBorder: OutlineInputBorder(
+                  borderRadius: const BorderRadius.all(Radius.circular(8)),
+                  borderSide: BorderSide(
+                    width: 1.0,
+                    color: Colors.grey[400]!,
+                  ),
+                ),
+                focusedBorder: const OutlineInputBorder(
+                  borderRadius: BorderRadius.all(Radius.circular(8)),
+                  borderSide: BorderSide(
+                    width: 1.0,
+                    color: Colors.greenAccent,
+                  ),
+                ),
+              ),
+              validator: (vlaue) {
+                return null;
+              },
+            ),
+          ),
+```
+
+### Button
+
+Selanjutnya adalah button. Pada button sendiri kita akan mempelajari menggunakan ElevatedButton. Pada elevetaed button sendiri sama seperti button pada umumnya, digunakan untuk interaksi klik pada user.
+Untuk button di flutter sendiri kita juga bisa melakukan kostumasi bentuk mulai dari shape, warna, dsb pada button tersebut. Ataupun kita ingin membuat button sendiri dengan memanfaatkan widget Container juga bisa dilakukan.
+
+```
+        ElevatedButton(
+          onPressed: () {
+            setState(() {
+              textButton = "Dharrr";
+            });
+          },
+          style: ElevatedButton.styleFrom(
+            padding: const EdgeInsets.all(12.0),
+            backgroundColor: Colors.greenAccent,
+            shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8.0)),
+          ),
+          child: Text(textButton),
+        ),
+```
