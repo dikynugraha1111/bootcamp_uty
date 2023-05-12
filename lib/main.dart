@@ -5,6 +5,10 @@ import 'package:bootcamp_uty/latihan_2/latihan_2_container.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_task.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_text.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_textfield.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_listview.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_navigation.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_row.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_stack.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +26,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       // Definisikan page yang akan ditampilkan pertama saat aplikasi dijalankan
-      home: Latihan2Task(),
+      home: Latihan3Navigation(),
     );
   }
 }

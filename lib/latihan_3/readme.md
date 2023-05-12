@@ -8,7 +8,7 @@ Jump to
 - [Row](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_3#Row)
 - [List View](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_3#List-View)
 - [Stack](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_3#Stack)
-- [Navigation]()
+- [Navigation](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_3#Navigation)
 
 ### Row
 
@@ -47,3 +47,11 @@ Stack widget memungkinkan kita untuk menampilkan beberapa lapis widget ke layar.
 ```
 
 ![stack-sample](../../asset/raw/stack_sample.png)</br>
+
+### Navigation
+
+Widget Navigator bekerja seperti tumpukan layar (stack), ia menggunakan prinsip LIFO (Last-In, First-Out).Ada cukup banyak method yang bisa kita gunakan pada widget navigator salah satunya adalah method Navigator.push(), Navigator.pop(), dan Navigator.pushAndReplacement().
+
+- Navigator.push(), Metode push digunakan untuk menambahkan rute lain ke atas tumpukan screen (stack) saat ini. Halaman baru ditampilkan di atas halaman sebelumnya. Ini seperti kita ingin berpindah dari halaman 1 ke halaman lainnya
+- Navigator.pop(), Metode pop menghapus rute paling atas dari tumpukan. Ini menampilkan halaman sebelumnya kepada pengguna. Skenerio simpel nya adalah seperti kita ingin kembali dari halam sekarang ke halaman sebelumnya (Back).
+- Navigator.pushAndReplacement(), method ini digunakan untuk menghapus rute saat ini dan diganti dengan rute lain ke atas tumpukan screen (stack). Skenerio simpel nya adalah, ketika kita di halaman 1 dan ingin ke halaman 2, tetapi ketika kita berpindah ke halaman 2, kita juga ingin menghapus/membuang halaman 1.
