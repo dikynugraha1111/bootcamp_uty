@@ -2,7 +2,6 @@ import 'package:bootcamp_uty/latihan_1/latihan_1_page.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_button.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_column.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_container.dart';
-import 'package:bootcamp_uty/latihan_2/latihan_2_task.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_text.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_textfield.dart';
 import 'package:bootcamp_uty/latihan_3/latihan_3_listview.dart';
