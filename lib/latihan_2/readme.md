@@ -12,6 +12,7 @@ Jump to
 - [Button](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Button)
 - [Column](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Column)
 - [Refrensi](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Refrensi)
+- [Task](https://github.com/dikynugraha1111/bootcamp_uty/tree/master/lib/latihan_2#Task)
 
 ### Container
 
@@ -208,3 +209,9 @@ https://api.flutter.dev/flutter/widgets/Column-class.html
 https://medium.com/jlouage/flutter-row-column-cheat-sheet-78c38d242041
 https://www.woolha.com/tutorials/flutter-using-column-widget-examples
 https://www.geeksforgeeks.org/row-and-column-widgets-in-flutter-with-example/
+
+### Task
+
+Buatlah sebuah layout UI seperti pada gambar dibawah ini.
+Dengan menambahkan fitur validasi pada form dan juga keselarasan halaman UI akan menjadi nilai tambah.</br>
+![latihan-2-task](../../asset/raw/latihan_2_task.jpg)</br>
