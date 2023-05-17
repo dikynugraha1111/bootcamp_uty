@@ -22,7 +22,9 @@ class _Latihan2ButtonState extends State<Latihan2Button> {
           },
           style: ElevatedButton.styleFrom(
             padding: const EdgeInsets.all(12.0),
-            backgroundColor: Colors.greenAccent,
+            // Note : new package use buttonColor instead of primary
+            // backgroundColor: Colors.greenAccent,
+            primary: Colors.greenAccent,
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(8.0)),
           ),

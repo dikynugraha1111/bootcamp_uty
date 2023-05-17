@@ -14,7 +14,10 @@ class Latihan1StatelessPage extends StatelessWidget {
     return Scaffold(
       // AppBar merupakan widget yang biasanya digunaan sebagai bagian atas / header dari aplikasi
       appBar: AppBar(
-        leading: const Icon(Icons.ac_unit),
+        leading: const Icon(
+          Icons.arrow_back_ios_new,
+          color: Colors.white,
+        ),
         title: const Text("Stateless Widget"),
         centerTitle: true,
         actions: const [Icon(Icons.more_horiz)],
