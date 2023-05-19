@@ -3,13 +3,18 @@ import 'package:bootcamp_uty/latihan_2/latihan_2_button.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_column.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_container.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_container_new.dart';
+import 'package:bootcamp_uty/latihan_2/latihan_2_task.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_text.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_textfield.dart';
 import 'package:bootcamp_uty/latihan_2/latihan_2_textfield_new.dart';
 import 'package:bootcamp_uty/latihan_3/latihan_3_listview.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_listview_new.dart';
 import 'package:bootcamp_uty/latihan_3/latihan_3_navigation.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_navigator_new.dart';
 import 'package:bootcamp_uty/latihan_3/latihan_3_row.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_row_new.dart';
 import 'package:bootcamp_uty/latihan_3/latihan_3_stack.dart';
+import 'package:bootcamp_uty/latihan_3/latihan_3_stack_new.dart';
 import 'package:flutter/material.dart';
 
 import 'latihan_2/latihan_2_button_new.dart';
@@ -30,7 +35,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       // Definisikan page yang akan ditampilkan pertama saat aplikasi dijalankan
-      home: Latihan2ColumnNew(),
+      home: Latihan3NavigatorNew(),
     );
   }
 }
